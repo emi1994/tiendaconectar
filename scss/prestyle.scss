@@ -1,0 +1,192 @@
+$primaryFont:'Raleway', sans-serif;
+$primaryColor: RGB(88, 131, 47);
+$primaryNavHoverColor: RGB(147, 49, 138);
+$heartPrimary: red;
+$empathyPrimary: green;
+$titleGreen: #598230;
+$unnecesaryWhite: #fff;
+$pawPrimary: RGB(147, 85, 41);
+$boxShadowDeep: 0 10px 5px rgba(105, 69, 69, 0.12), 0 10px 5px rgba(0, 0, 0, 0.24);
+$boxShadowMiddle: 0 2px 2px rgba(105, 69, 69, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $primaryFont;
+    font-weight: 400;
+}
+
+ul{
+    li{
+        a{
+            list-style: none;
+            text-decoration: none;
+        }
+    }
+}
+
+//Navigation
+
+.navbar-light{
+    .navbar-nav{
+        .nav-link{
+            color: $primaryColor;
+            &:hover{ border-bottom: $primaryNavHoverColor 0.3px solid; }
+        }
+    }
+}
+
+.logo {
+    border-radius: 300px;
+    width: 60px;
+    height: 60px;
+    margin-right: auto;
+}
+
+
+.product-effect{
+    &:hover{
+        box-shadow: $boxShadowDeep;
+        z-index: 1;
+        transition: 0.5s;
+    }
+}
+
+// Fixers
+
+.spandex{
+    font-weight: bold;
+}
+
+.spandex-product {
+    font-weight: bold;
+  }
+  
+.spandex-p {
+    font-weight: 400;
+    margin: 20px 0 0 20px;
+  }
+
+  
+.margin-nav-fixer{
+    margin-top: 70px;
+}
+
+// Index
+
+.title-awarness{
+    color: #598230;
+    font-weight: 800;
+    letter-spacing: 5px;
+    word-spacing: 1px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+  }
+  
+.title-awarness::after {
+    display: block;
+    height: 2px;
+    background-color: $titleGreen;
+    content: " ";
+    width: 100px;
+    margin: 30px auto 0px;
+  }
+  
+
+.title-awarness-item{
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+  } .p-awarness{
+    font-size: 20px;
+    font-weight: 200;
+    margin: 20px 0px 30px 0px;
+    text-align: center;
+  } .icon-awarness{
+    font-size: 40px;
+    margin: 20px 0px 20px 150px;
+  } .margin-awarness-fixer{
+    margin-left: 140px;
+  }
+  
+
+.icon-heart-color{
+    color: $heartPrimary;
+}
+
+.icon-empathy-color{
+    color: $empathyPrimary;
+}
+
+.icon-paw-color{
+    color: $pawPrimary;
+}
+
+.section-effect{
+    box-shadow: $boxShadowMiddle;
+    margin-bottom: 20px;
+
+}
+
+//Lifestyle 
+
+.vida-icons{
+  font-size: 40px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+
+.title-lifestyle{
+  font-weight: bold;
+  font-size: 30px;
+  margin: 40px 20px 40px 20px;
+  letter-spacing: 3px;
+  text-align: center;
+} .subtitle-lifestyle{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px 10px 0px;
+    text-align: left;
+  } .p-lifestyle{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 35px;
+  } .underlined-lifestyle{
+    text-decoration: underline;
+  }
+
+.p-rem{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+
+//Footer
+.menu-footer-menu-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: RGB(139, 195, 74);
+    text-align: center;
+  }.menu-footer-object{
+    color: $unnecesaryWhite;
+    margin-top: 20px;
+  }.footer-copyright{
+    color: $unnecesaryWhite;
+  }
+  
+  .social-footer{
+    color: $unnecesaryWhite;
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  // Products
+
+  .alert{
+      padding: 6px;
+  }
