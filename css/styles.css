@@ -12,16 +12,16 @@
 ul li a {
   list-style: none;
   text-decoration: none;
-  transition: 0.2s;
+  transition: 0.5s;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: RGB(88, 131, 47);
+  font-weight: 600;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
-  font-weight: 600;
-  color: #598230;
+  color: #3a4d29;
 }
 
 .logo {
@@ -57,6 +57,11 @@ ul li a {
   margin-top: 70px;
 }
 
+.f-container{
+  display: flex;
+  flex-direction: column;
+}
+
 .title-awarness {
   color: #598230;
   font-weight: 500;
@@ -86,7 +91,7 @@ ul li a {
 .p-awarness {
   font-size: 20px;
   font-weight: 200;
-  margin: 20px 0px 30px 0px;
+  margin: 20px 20px 30px 20px;
   text-align: center;
 }
 
@@ -230,6 +235,7 @@ ul li a {
   justify-self: flex-end;
   margin-top: auto;
 }
+
 
 
 /*Recipes*/
