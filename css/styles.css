@@ -1,5 +1,5 @@
 
-
+/* Globales */
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +16,8 @@ ul li a {
 
 }
 
+
+/* Nav bar */
 .navbar-light .navbar-nav .nav-link {
   color: RGB(88, 131, 47);
   font-weight: 600;
@@ -32,7 +34,11 @@ ul li a {
   margin-right: auto;
 }
 
+.navbar-toggler-icon{
+  margin-bottom: 0px;
+}
 
+/* Productos */
 .product-effect:hover {
   -webkit-box-shadow: 0 10px 5px rgba(105, 69, 69, 0.12), 0 10px 5px rgba(0, 0, 0, 0.24);
           box-shadow: 0 10px 5px rgba(105, 69, 69, 0.12), 0 10px 5px rgba(0, 0, 0, 0.24);
@@ -58,6 +64,48 @@ ul li a {
   margin-top: 70px;
 }
 
+.product-image{
+  min-width: 100%;
+  height: auto;
+  padding-top: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  border-radius: .25rem;
+}
+
+.product-image.fruits{
+  background-image: url('../images/fitfruits.png');
+}
+
+.product-image.deodorant{
+  background-image: url('../images/desodorante.png');
+}
+
+.product-image.bag{
+  background-image: url('../images/bolsadegradable.png');
+}
+
+.product-image.milk{
+  background-image: url('../images/productos/lechealmendras.png');
+}
+
+.product-image.paste{
+  background-image: url('../images/productos/pastadental.png');
+}
+
+.product-image.esponja{
+  background-image: url('../images/productos/esponjavegetal.png');
+}
+
+.product-info{
+  flex: 0 0 auto; /* flex-shrink, flex-grow, flex-basis*/
+  justify-self: flex-end;
+  margin-top: auto;
+}
+
+
+/* Home */
 .f-container{
   display: flex;
   flex-direction: column;
@@ -128,6 +176,8 @@ ul li a {
   font-size: 40px;
 }
 
+
+/* Estilo de vida */
 .title-lifestyle {
   font-weight: 600px;
   font-size: 30px;
@@ -160,6 +210,8 @@ ul li a {
   text-decoration: underline;
 }
 
+
+/* Footer */
 .menu-footer-menu-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -188,56 +240,6 @@ ul li a {
   font-size: 20px;
   padding: 5px;
 }
-
-
-
-/*# sourceMappingURL=prestyle.css.map */
-
-.navbar-toggler-icon{
-  margin-bottom: 0px;
-}
-
-.product-image{
-  min-width: 100%;
-  height: auto;
-  padding-top: 100%;
-  position: relative;
-  background-size: cover;
-  background-position: center center;
-  border-radius: .25rem;
-}
-
-.product-image.fruits{
-  background-image: url('../images/fitfruits.png');
-}
-
-.product-image.deodorant{
-  background-image: url('../images/desodorante.png');
-}
-
-.product-image.bag{
-  background-image: url('../images/bolsadegradable.png');
-}
-
-.product-image.milk{
-  background-image: url('../images/productos/lechealmendras.png');
-}
-
-.product-image.paste{
-  background-image: url('../images/productos/pastadental.png');
-}
-
-.product-image.esponja{
-  background-image: url('../images/productos/esponjavegetal.png');
-}
-
-.product-info{
-  flex: 0 0 auto; /* flex-shrink, flex-grow, flex-basis*/
-  justify-self: flex-end;
-  margin-top: auto;
-}
-
-
 
 /*Recipes*/
 .subtitle-recipe{
